@@ -18,10 +18,9 @@ gem 'puma', '~> 3.11'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+# gem 'bootstrap', '~> 4.1.3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
 #active_model_serializers
 gem 'active_model_serializers', '~> 0.10.0'
 # Reduces boot times through caching; required in config/boot.rb

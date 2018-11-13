@@ -27,7 +27,10 @@ reparo = Spell.create(name: "Reparo", effect: "Fix something that has been broke
 aguamenti = Spell.create(name: "Aguamenti", effect: "Produce water from a wand")
 priori = Spell.create(name: "Priori Incantatem", effect: "Reveals the last spell cast by another wizard's wand")
 dissendium = Spell.create(name: "Dissendium", effect: "Reveal a secret passage")
+
 muffliato = Spell.create(name: "Muffliato", effect: "Fills the ears of anyone nearby with an unidentifiable buzzing")
+expelliarmus = Spell.create(name: "Expelliarmus", effect: "A handy (even life-saving) spell for removing an object from an enemy's grasp")
+stupefy = Spell.create(name: "Stupefy", effect: "Knock out an opponent in a duel")
 
 
 WizardSpell.create(wizard_id: 1, spell_id: 1)

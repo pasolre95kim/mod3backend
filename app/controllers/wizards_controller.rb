@@ -24,7 +24,7 @@ class WizardsController < ApplicationController
 private
 
   def wizards_params
-    params.require(:wizard).permit(:name, :image, :pet, :house, :patronous, :wand )
+    params.require(:wizard).permit(:name, :image, :pet, :house, :patronous, :wand, :spells)
   end
 
 end
