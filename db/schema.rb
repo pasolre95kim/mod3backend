@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 2018_11_09_210316) do
     t.string "image"
     t.string "pet"
     t.string "house"
-    t.string "patronous"
+    t.string "patronus"
     t.string "wand"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

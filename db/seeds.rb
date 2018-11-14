@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-harry = Wizard.create(name: 'Harry', pet: 'Hedwig', house: 'Griffindor', patronous: 'Stag', wand: 'Wand core & Wood', image:"https://www.movenoticias.com/wp-content/uploads/2014/07/Harry-Potter.jpg")
-hermione = Wizard.create(name: 'Hermione', pet: 'Crookshanks', house: 'Griffindor', patronous: 'Otter', wand: '10¾" long, made of vine wood, and possessed a dragon heartstring core', image: "https://i.pinimg.com/236x/ec/7b/11/ec7b11280f77ed85176109531abbe57e--harry-potter-hermione-harry-potter-stuff.jpg")
+harry = Wizard.create(name: 'Harry', pet: 'Hedwig', house: 'Griffindor', patronus: 'Stag', wand: 'Wand core & Wood', image:"https://www.movenoticias.com/wp-content/uploads/2014/07/Harry-Potter.jpg")
+hermione = Wizard.create(name: 'Hermione', pet: 'Crookshanks', house: 'Griffindor', patronus: 'Otter', wand: '10¾" long, made of vine wood, and possessed a dragon heartstring core', image: "https://i.pinimg.com/236x/ec/7b/11/ec7b11280f77ed85176109531abbe57e--harry-potter-hermione-harry-potter-stuff.jpg")
 
 
 
@@ -34,16 +34,8 @@ stupefy = Spell.create(name: "Stupefy", effect: "Knock out an opponent in a duel
 
 
 WizardSpell.create(wizard_id: 1, spell_id: 1)
-WizardSpell.create(wizard_id: 1, spell_id: 5)
-WizardSpell.create(wizard_id: 1, spell_id: 6)
-WizardSpell.create(wizard_id: 1, spell_id: 7)
-WizardSpell.create(wizard_id: 1, spell_id: 13)
-
 WizardSpell.create(wizard_id: 2, spell_id: 6)
-WizardSpell.create(wizard_id: 2, spell_id: 2)
-WizardSpell.create(wizard_id: 2, spell_id: 5)
-WizardSpell.create(wizard_id: 2, spell_id: 9)
-WizardSpell.create(wizard_id: 2, spell_id: 10)
+
 
 
 

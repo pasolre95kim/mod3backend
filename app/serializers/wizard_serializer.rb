@@ -1,4 +1,4 @@
 class WizardSerializer < ActiveModel::Serializer
-  attributes :name, :image, :pet, :house, :patronous, :wand
+  attributes :id, :name, :image, :pet, :house, :patronus, :wand
   has_many :spells
 end

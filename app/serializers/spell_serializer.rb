@@ -1,4 +1,4 @@
 class SpellSerializer < ActiveModel::Serializer
-  attributes :name, :effect
-  
+  attributes :id, :name, :effect
+
 end
