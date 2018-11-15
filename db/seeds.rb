@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 harry = Wizard.create(name: 'Harry', pet: 'Hedwig', house: 'Griffindor', patronus: 'Stag', wand: 'Wand core & Wood', image:"https://www.movenoticias.com/wp-content/uploads/2014/07/Harry-Potter.jpg")
-hermione = Wizard.create(name: 'Hermione', pet: 'Crookshanks', house: 'Griffindor', patronus: 'Otter', wand: '10¾" long, made of vine wood, and possessed a dragon heartstring core', image: "https://i.pinimg.com/236x/ec/7b/11/ec7b11280f77ed85176109531abbe57e--harry-potter-hermione-harry-potter-stuff.jpg")
+hermione = Wizard.create(name: 'Hermione', pet: 'Crookshanks', house: 'Griffindor', patronus: 'Otter', wand: '10¾ long, made of vine wood, and possessed a dragon heartstring core', image: "https://i.pinimg.com/236x/ec/7b/11/ec7b11280f77ed85176109531abbe57e--harry-potter-hermione-harry-potter-stuff.jpg")
 
 
 
